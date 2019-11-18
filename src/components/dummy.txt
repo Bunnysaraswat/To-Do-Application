@@ -1,0 +1,10 @@
+<div className="row">
+                        <div className="col-lg-2 container-fluid">
+                            
+                        </div>
+                        <div className="col-lg-10 workArea container-fluid">
+                            <h1 className="text-center">Todo's</h1>
+                            <Todos todos={this.state.todos} deleteTodo={this.deleteTodo}/>
+                            <AddTodo addTodo={this.addTodo}/>
+                        </div>
+                    </div>
